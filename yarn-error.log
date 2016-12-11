@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Keller\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Keller\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Keller\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Python27\Lib\site-packages;C:\Python27;C:\Python27\Scripts;C:\Python27\Library\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Nmap;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\WinSCP;C:\Program Files\nodejs;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Users\Keller\AppData\Local\atom\bin;C:\Program Files (x86)\Nmap;C:\Users\Keller\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\Keller\AppData\Roaming\npm;C:\Users\Keller\AppData\Local\Yarn\.bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  0.17.10
+
+Node version: 
+  7.2.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Program Files (x86)\Yarn\lib\reporters\console\console-reporter.js:192:29)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli\commands\init.js:105:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+      at C:\Program Files (x86)\Yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+      at process._tickCallback (internal/process/next_tick.js:103:7)
