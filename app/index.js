@@ -3,8 +3,8 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
-import todoApp from '.reducers/todoApp'
-import App from './components/App/'
+import todoApp from '/reducers/reducers'
+import App from '/components/App/'
 
 // if (process.env.NODE_ENV !== 'production') {
 //   React.Perf = require('react-addons-perf')

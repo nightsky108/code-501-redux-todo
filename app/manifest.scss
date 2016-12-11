@@ -1,1 +1,16 @@
-@import './components/Todo.scss';
+//@import './components/Todo.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2e7fa
+}
+.incomplete-task {
+  color: darkred;
+}
+.complete-task {
+  color: forestgreen;
+  text-decoration: line-through;
+}

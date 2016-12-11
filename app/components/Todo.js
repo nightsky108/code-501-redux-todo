@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 const Todo = ({ text, completed, onClick }) =>
   <li
-    className={completed ? 'completedTask' : 'incompleteTask'}
+    className={completed ? 'completed-task' : 'incomplete-task'}
     onClick={onClick}
   >
     {text}
