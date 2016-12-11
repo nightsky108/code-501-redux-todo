@@ -16,8 +16,10 @@ let AddTodo = ({ dispatch }) => {
         <input ref={(node) => {
             input = node
           }}
+          placeholder='Add Todo'
+          type='text'
         />
-        <input type='submit' value='Add Todo'
+        <input type='submit' value='Add Todo'        
         />
     </form>
   )
@@ -25,7 +27,7 @@ let AddTodo = ({ dispatch }) => {
   
 // Dispatchers - something that dispatches an action
 
-AddTodo = connect()(AddTodo)
+AddTodo = connect()(AddTodo) // Iffy - immediately invoked function expression
 
 const AddTodo 
 

@@ -16,6 +16,14 @@ Just having fun with React + Redux
 ->
 * Reducers: Callback functions called by user view to change state
 
+---
+
 An action in Redux is a JSON with a name:, and a payload which describes what happened.
+
+---
+Components: Hold smart components
+Containers: Hold dumb components
+Actions: Actions made against state
+Reducers: Dispatch actions
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)

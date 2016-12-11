@@ -1,10 +1,14 @@
 import React from 'react'
 
-class App extends React.Component({
+import Footer from './Footer'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodosList from '../containers/VisibleTodosList'
+
+class App = ({
   render () {
     return (
       <div>
-        Hi!
+        
       </div>
     )
   }
