@@ -15,3 +15,5 @@ Just having fun with React + Redux
 * View: Render via props
 ->
 * Reducers: Callback functions called by user view to change state
+
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
